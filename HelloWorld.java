@@ -6,6 +6,7 @@ public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World");
 	System.out.println("Hello, World");
-	
+	String variable = System.getProperty("source.switch.id");
+	System.out.println("#############"+ variable );
   }
 }
